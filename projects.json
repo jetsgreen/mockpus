@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "name": "Friend Finder",
+      "image": "https://images.unsplash.com/photo-1483428400520-675ef69a3bc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80",
+      "description": "This application is meant to simulate a simple friend finder's app.  It's a full stack application that uses dated stored in a json file.",
+      "github": "https://github.com/jetsgreen/Local.js"
+    },
+    {
+      "id": 2,
+      "name": "Grid Iron",
+      "image": "https://images.unsplash.com/photo-1566577740641-503e61e4646a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80",
+      "description": "A front-end application that allows users to check news articles about their favorite football team, buy tickets, and look up latest scores. The application uses three different third party APIs",
+      "github": "https://github.com/jetsgreen/visionCode"
+    },
+    {
+      "id": 3,
+      "name": "Dev Seek",
+      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80",
+      "description": "A full stack, MVC (Model-View-Controller) duel application that allows job seekers to search and apply for web development jobs all over country depending on their search parameters.",
+      "github": "https://github.com/jetsgreen/reclass"
+    },
+    {
+      "id": 4,
+      "name": "Eat-Da-Burger",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=602&q=80",
+      "description": "A full stack, MVC(Model View Controller) app that allows you to create(Post), view(Get), update(Put) and Delete",
+      "github": "https://github.com/jetsgreen/JSON.js"
+    },
+    {
+      "id": 5,
+      "name": "Fair Space",
+      "image": "https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80",
+      "description": "Fair Space is an online apartment listing website, offering renters access to information on available units for rent posted directly by landlords themselves. It's powered by Google Maps, and Rent Estimate APIs to give the consumer the information needed to list and look for fair rental prices.",
+      "github": "https://github.com/jetsgreen/chicons"
+    },
+    {
+      "id": 6,
+      "name": "Clicky Game",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3Ffb1z3WN2hMXKdlAkNL8R6E8Wp-bBvRz-CrsD5J-jeXpyeiG",
+      "description": "Clicky Game was built with React to track clicks and present the user with a score.  The game will track each clicked image the user makes.  If the same image is clicked twice the game will end and will reset",
+      "github": "https://github.com/jetsgreen/davish/tree/master/clicky"
+    },
+    {
+      "id": 7,
+      "name": "All the News that's fit to Scrape",
+      "image": "https://images.unsplash.com/photo-1566378246598-5b11a0d486cc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80",
+      "description": "All the News That's Fit to Scrape is an application that lets users scrape news articles from News12.com(New Jersey local news) . Users can then view and leave comments onarticl es. This app uses Cheerio to scrape news from News 12 and stores them in MongoDB using Mongoose.",
+      "github": "https://github.com/jetsgreen/scrapedNews"
+    },
+    {
+      "id": 8,
+      "name": "Crystal Game",
+      "image": "https://cdn.shopify.com/s/files/1/0901/0816/products/Explosive_Morning_Desktop_1_2048x.JPG?v=1500996502",
+      "description": "This App is a memory game where you have to click each crystal to try and match the amount given to you  when the page first renders. The game will keep score of all wins and loses.",
+      "github": "https://github.com/jetsgreen/applesauce"
+    }
+  ]
