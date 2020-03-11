@@ -1,7 +1,8 @@
 import React from "react";
-import "./projectCard.css";
+import "./style.css";
+import { Link } from "react-router-dom";
 
-function ProjectCard(props) {
+function FriendCard(props) {
   return (
     <div className="card">
       <div className="img-container">
@@ -16,13 +17,16 @@ function ProjectCard(props) {
             <strong>Description:</strong> {props.description}
           </li>
           <li>
-            <strong>Github:</strong> {props.github}
+            <strong>Github:</strong> <Link>{props.github}</Link>
           </li>
+          
         </ul>
       </div>
-      
+      <button onClick={() => props.demoProject(props.demo)} className="btn btn-primary">
+        Demo
+      </button>
     </div>
   );
 }
 
-export default ProjectCard;
+export default FriendCard;

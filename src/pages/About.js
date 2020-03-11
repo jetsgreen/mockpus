@@ -1,11 +1,13 @@
 import React from "react";
+import Header from "../components/Header/header"
 
-function Contact() {
+const  About = () => {
   return (
+    <div className="inner">
+    <Header lineContent="This is the" lineContent2="about page"/>
     <div>
-      <h1>Contact</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
+      <p className="info">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
         varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
         Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
         imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
@@ -13,9 +15,10 @@ function Contact() {
         elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
         consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
         malesuada fames ac ante ipsum primis in faucibus.
-      </p>
+        </p>
+    </div>
     </div>
   );
 }
 
-export default Contact;
+export default About;

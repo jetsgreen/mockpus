@@ -1,25 +1,29 @@
 import React from "react";
+import "./App.css" 
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Nav from "./components/Nav/Nav"
-import Home from "./components/pages/Home";
-import About from "./components/pages/About";
-import Contact from "./components/pages/Contact";
-import Portfolio from "./components/pages/Portfolio";
+import NavTabs from "./components/Navtabs/navTabs";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
+import Footer from "./components/Footer/footer"
+
 
 
 function App() {
   return (
     <Router>
       <div>
-        <Nav />
+        <NavTabs />
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
-        <Route path="/portfolio" component={Portfolio} />
+        <Route exact path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
-       
       </div>
+      <Footer/>
     </Router>
+    
   );
+  
 }
-
 export default App;

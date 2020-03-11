@@ -1,1 +1,33 @@
+.container {
+    position: relative;
+    width: 1280px;
+    min-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.page {
+    position: absolute;
 
+}
+.inner {
+    display: flex;
+    justify-content: center;
+
+}
+h1 {
+    font-size: 52px;
+    letter-spacing: .1rem;
+}
+.line-wrap{
+    overflow: hidden;
+    height:66px ;
+}
+p{
+    margin-top: 20px;
+    width: 400px;
+    font-weight: 300px;
+    line-height: 24px;
+    font-style: 14px;
+}
