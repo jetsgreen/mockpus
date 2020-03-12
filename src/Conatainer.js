@@ -10,8 +10,10 @@ class Container extends Component {
   state = {
     projects
   };
-
-  
+  handleClick = (e) => {
+    
+    console.log(e);
+  };
 
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
@@ -27,7 +29,10 @@ class Container extends Component {
             image={project.image}
             description={project.description}
             github={project.github}
-            demoProject={this.description}
+            demo={project.demo}
+            handleClick={this.handleClick}
+            
+            
           />
         ))}
       </Wrapper>

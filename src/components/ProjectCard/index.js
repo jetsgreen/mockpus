@@ -11,20 +11,21 @@ function FriendCard(props) {
       <div className="content">
         <ul>
           <li>
-            <strong>Name:</strong> {props.name}
+            <strong>Name:</strong> {props.name} 
           </li>
           <li>
             <strong>Description:</strong> {props.description}
           </li>
           <li>
-            <strong>Github:</strong> <Link>{props.github}</Link>
+          <Link><a className="navbar-brand" href={props.github} target="_blank"><button className="btn btn-info">Github</button></a></Link>
           </li>
+          <div>
+          <Link><a className="navbar-brand" href={props.demo} target="_blank" onClick={()=> props.handleClick(props.demo)}>Click here to Demo</a></Link>
+          </div>
           
         </ul>
       </div>
-      <button onClick={() => props.demoProject(props.demo)} className="btn btn-primary">
-        Demo
-      </button>
+    
     </div>
   );
 }

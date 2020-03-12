@@ -6,7 +6,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
-import Footer from "./components/Footer/footer"
+// import Footer from "./components/Footer/footer"
 
 
 
@@ -20,7 +20,7 @@ function App() {
         <Route exact path="/portfolio" component={Portfolio} />
         <Route path="/contact" component={Contact} />
       </div>
-      <Footer/>
+    
     </Router>
     
   );

@@ -4,7 +4,7 @@ import Header from "../components/Header/header"
 function Contact  () {
   return (
     <div className="inner">
-    <Header lineContent="This is the" lineContent2="contact page"/>
+    <Header  lineContent2="Contact Me"/>
     <div>
       <p className="info">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
