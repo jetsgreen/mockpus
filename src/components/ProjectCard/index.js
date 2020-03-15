@@ -2,7 +2,7 @@ import React from "react";
 import "./style.css";
 import { Link } from "react-router-dom";
 
-function FriendCard(props) {
+function ProjectCard(props) {
   return (
     <div className="card">
       <div className="img-container">
@@ -30,4 +30,4 @@ function FriendCard(props) {
   );
 }
 
-export default FriendCard;
+export default ProjectCard;

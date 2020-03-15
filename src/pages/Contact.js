@@ -1,10 +1,16 @@
 import React from "react";
-import Header from "../components/Header/header"
+import {Col, Row} from "../components/Grid/grid"
+
 
 function Contact  () {
   return (
     <div className="inner">
-    <Header  lineContent2="Contact Me"/>
+      <div>
+<h1>Contact Me</h1>
+   </div>
+   <Row>
+     <Col size="md-6">
+     
     <div>
       <p className="info">
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
@@ -17,6 +23,8 @@ function Contact  () {
         malesuada fames ac ante ipsum primis in faucibus.
         </p>
     </div>
+    </Col>
+    </Row>
     </div>
     
   );
