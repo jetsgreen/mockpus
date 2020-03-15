@@ -19,7 +19,7 @@ class Container extends Component {
   render() {
     return (
       <Wrapper>
-        <Title>Projects</Title>
+        <Title>My Recent Work</Title>
         {this.state.projects.map(project => (
           <ProjectCard
            
