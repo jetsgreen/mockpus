@@ -1,10 +1,11 @@
-import React, { useEffect, useRef } from "react";
+import React,{useEffect, useRef} from "react";
 import { gsap } from "gsap"
-import "./home.css"
+import "./profile.css"
 
 
-function HomeImage() {
+function ProfileImg() {
   let image = useRef(null);
+  let info = useRef(null);
 
   useEffect(() => {
 
@@ -20,13 +21,13 @@ function HomeImage() {
 
   }, [image])
 
-
+ 
   return (
     <div ref={el => image = el} >
-      <img className="home-image" src="./images/home.png" alt="Code" height="280" width="300"></img>
-      <p className="img-p">"Just eager to code"</p>
+      <img className="profile-image" src="./images/profile.png" alt="Profile" height="300" width="250"></img>
+     
     </div>
   );
 }
 
-export default HomeImage;
+export default ProfileImg;

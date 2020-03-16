@@ -1,0 +1,9 @@
+.profile-image {
+    margin-top: 150px;
+    margin-left: 10px;
+    border-radius: 6px;
+}
+.profile-image:hover {
+    border: solid red;
+}
+

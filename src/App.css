@@ -25,11 +25,13 @@ p{
 .info{
     border: solid lightgray;
     border-radius: 6px;
-    padding: 10px;
+    padding: 40px;
     margin-top: 150px;
     font-family: 'Noto Sans KR', sans-serif;
     font-size: large;
-    
+    height: 350px;
+    color: white;
+    height: 400px;
 }
 
 h1{
@@ -58,13 +60,14 @@ h1{
     
 }
 #mail {
-    background-image: url("https://images.unsplash.com/photo-1508769941802-a6ca19d19e08?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80");
+    background-image: url("https://images.unsplash.com/photo-1523495706668-1fd3d480bc63?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     
 }
+
 
 
 

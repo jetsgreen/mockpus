@@ -1,29 +1,65 @@
-
-import React from 'react'
+import React, { useEffect, useRef } from "react";
+import { Col, Row } from "../components/Grid/grid"
+import ProfileImg from "../components/ProfileImg/profileImg"
+import { gsap } from "gsap"
+import Footer from "../components/Footer/footer"
 
 function About() {
+  let info = useRef(null);
+  let about = useRef(null);
+
+  useEffect(() => {
+
+    gsap.from(info, 1.5, {
+      delay: 0.8,
+      ease: "bounce3.out",
+      duration: 2.5,
+      fade: .9,
+      opacity: 0,
+      x: 65,
+
+    })
+
+  }, [info])
+
+  useEffect(() => {
+
+    gsap.from(about, 1.5, {
+      delay: 0.8,
+      ease: "bounce3.out",
+      duration: 2.5,
+      fade: .9,
+      opacity: 0,
+      y: 65,
+
+    })
+
+  }, [about])
 
   return (
     <div className="inner" id="about">
       <div>
-        <h1 className="header">About Me</h1>
+        <h1 className="header" ref={el => about = el}>About Me</h1>
       </div>
       <div>
-        <p className="info">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque velit, lobortis ut magna
-            varius, blandit rhoncus sem. Morbi lacinia nisi ac dui fermentum, sed luctus urna tincidunt.
-            Etiam ut feugiat ex. Cras non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna
-            imperdiet ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras rutrum
-            ligula in tincidunt commodo. Morbi sit amet mollis orci, in tristique ex. Donec nec ornare
-            elit. Donec blandit est sed risus feugiat porttitor. Vestibulum molestie hendrerit massa non
-            consequat. Vestibulum vitae lorem tortor. In elementum ultricies tempus. Interdum et
-            malesuada fames ac ante ipsum primis in faucibus.
+        <Row>
+        <Col size="md-6">
+          <ProfileImg/>
+          </Col>
+        <Col size="md-6">
+        <p className="info"ref={el => info = el}>
+       Hello
         </p>
+        </Col>
+        
+        </Row>
         <div>
 
         </div>
       </div>
+      <Footer/>
     </div>
+   
   );
 }
 
