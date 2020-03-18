@@ -46,7 +46,7 @@
     "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ3Ffb1z3WN2hMXKdlAkNL8R6E8Wp-bBvRz-CrsD5J-jeXpyeiG",
     "description": "Clicky Game was built with React to track clicks and present the user with a score.  The game will track each clicked image the user makes.  If the same image is clicked twice the game will end and will reset",
     "github": "https://github.com/jetsgreen/davish/tree/master/clicky",
-    "demo": "https://jetsgreen.github.io/davish/"
+    "demo": "https://jetsgreen.github.io/frozenzone/" 
   },
   {
     "id": 7,
