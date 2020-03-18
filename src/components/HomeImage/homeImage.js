@@ -3,6 +3,7 @@ import { gsap } from "gsap"
 import "./home.css"
 
 
+
 function HomeImage() {
   let image = useRef(null);
 
