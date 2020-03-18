@@ -6,7 +6,7 @@ import projects from "./projects.json";
 
 
 class Container extends Component {
-  // Setting this.state.friends to the friends json array
+ 
   state = {
     projects
   };
@@ -14,7 +14,7 @@ class Container extends Component {
     console.log(e);
   };
 
-  // Map over this.state.friends and render a FriendCard component for each friend object
+  
   render() {
     return (
       <Wrapper>
