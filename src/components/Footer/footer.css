@@ -1,13 +1,48 @@
 footer {
-    
-        position: fixed;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        background-color: black;
-        color: white;
-        text-align: center;
-        
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
 }
+
+#footer-text {
+    color: white;
+}
+
+.media:hover {
+    cursor: pointer;
+    
+} 
+
+.fa-github {
+    font-size:25px;color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
+
+.fa-github:hover{
+    color: red;
+}
+
+.fa-linkedin {
+    font-size:25px;color: white;
+}
+
+.fa-linkedin:hover {
+    color: red;
+}
+#email-link {
+    font-size: 25px;color: white;
+}
+#email-link:hover {
+color: red;
+}
+
+
 
 

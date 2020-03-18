@@ -2,8 +2,7 @@
     margin-top: 150px;
     margin-left: 10px;
     border-radius: 6px;
+    float: left;
 }
-.profile-image:hover {
-    border: solid red;
-}
+
 

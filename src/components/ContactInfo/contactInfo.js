@@ -22,7 +22,7 @@ function ContactInfo() {
 
   return (
     <div id="contact-div" ref={el => con = el}>
-            <p id="phone-number"><a href="tel:973-896-9924">(973) 896-9924</a></p>
+            <p id="phone-number"><a href="tel:973-896-9924">Cellphone: (973) 896-9924</a></p>
             <p id="email"><a
               href="mailto:fernandezfelix460@gmail.com? subject=subject text">fernandezfelix460@gmail.com</a>
             </p>

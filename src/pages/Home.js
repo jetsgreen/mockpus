@@ -3,9 +3,6 @@ import {Col, Row} from "../components/Grid/grid"
 import HomeImage from "../components/HomeImage/homeImage"
 import { gsap } from "gsap"
 
-
-
-
 function Home  ()  {
     let info = useRef(null);
     let home = useRef(null);

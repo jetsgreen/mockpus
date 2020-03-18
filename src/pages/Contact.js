@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Col, Row } from "../components/Grid/grid"
 import ContactInfo from "../components/ContactInfo/contactInfo"
 import { gsap } from "gsap"
+import Footer from "../components/Footer/footer"
 
 
 
@@ -62,7 +63,7 @@ function Contact() {
           <ContactInfo />
         </Col>
       </Row>
-     
+     <Footer/>
     </div>
 
   );
