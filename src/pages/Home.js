@@ -61,7 +61,7 @@ function Home  ()  {
                               MongoDB, React.js and Jquery to mention a few technologies.
                               
       </p>
-      <a href="http://localhost:3000/portfolio"><button ref={el => button = el} className="btn btn-info" id="btn-portfolio">Portfolio</button></a>
+      <a href="https://jetsgreen.github.io/portfolio"><button ref={el => button = el} className="btn btn-info" id="btn-portfolio">Portfolio</button></a>
       </div>
       <Row>
           <HomeImage/>
