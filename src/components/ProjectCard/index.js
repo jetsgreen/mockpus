@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import { Link } from "react-router-dom";
+
 
 function ProjectCard(props) {
   return (
@@ -16,11 +16,9 @@ function ProjectCard(props) {
           <li>
             <strong>Description:</strong> {props.description}
           </li>
-          <li>
-          <Link><a className="navbar-brand" href={props.github} target="_blank"><button className="btn btn-info">Github</button></a></Link>
-          </li>
+          <a className="navbar-brand" href={props.github} target="_blank" onClick={()=> props.handleClick(props.github)}><button className="btn btn-info">Github</button></a>
           <div>
-          <Link><a className="navbar-brand" href={props.demo} target="_blank" onClick={()=> props.handleClick(props.demo)}>Click here to Demo</a></Link>
+         <a className="navbar-brand" href={props.demo} target="_blank" onClick={()=> props.handleClick(props.demo)}>Click here to Demo</a>
           </div>
           
         </ul>

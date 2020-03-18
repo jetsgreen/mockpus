@@ -24,7 +24,7 @@ function HomeImage() {
   return (
     <div ref={el => image = el} >
       <img className="home-image" src="./images/home.png" alt="Code" height="280" width="300"></img>
-      <p className="img-p">"Just eager to code"</p>
+      <p className="img-p">This Portfolio was built with React.js</p>
     </div>
   );
 }

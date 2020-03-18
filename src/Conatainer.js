@@ -11,7 +11,6 @@ class Container extends Component {
     projects
   };
   handleClick = (e) => {
-    
     console.log(e);
   };
 
