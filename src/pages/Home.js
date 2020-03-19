@@ -53,7 +53,8 @@ function Home  ()  {
   
     return (
         <div className="inner" id="home">
-            <h1 ref={el => home = el} className="header">Home Page</h1>
+            <h1 ref={el => home = el} className="header">Felix Fernandez<br></br><p className="sub-title">Full Stack Developer</p></h1>
+
             <div className="home-div">
             <p ref={el => info = el}className="info">
                 Dedicated Software Engineer with experience in both front-end and back-end development. Strong
@@ -61,7 +62,7 @@ function Home  ()  {
                               MongoDB, React.js and Jquery to mention a few technologies.
                               
       </p>
-      <a href="http://localhost:3000/portfolio"><button ref={el => button = el} className="btn btn-info" id="btn-portfolio">Portfolio</button></a>
+      <a href="https://github.com/jetsgreen"><button ref={el => button = el} className="btn btn-info" id="btn-portfolio">Github</button></a>
       </div>
       <Row>
           <HomeImage/>
