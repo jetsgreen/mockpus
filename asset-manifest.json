@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/mockpus/static/css/main.db964b18.chunk.css",
-    "main.js": "/mockpus/static/js/main.7778a816.chunk.js",
-    "main.js.map": "/mockpus/static/js/main.7778a816.chunk.js.map",
+    "main.css": "/mockpus/static/css/main.178f3b49.chunk.css",
+    "main.js": "/mockpus/static/js/main.89cb076d.chunk.js",
+    "main.js.map": "/mockpus/static/js/main.89cb076d.chunk.js.map",
     "runtime-main.js": "/mockpus/static/js/runtime-main.3664298a.js",
     "runtime-main.js.map": "/mockpus/static/js/runtime-main.3664298a.js.map",
     "static/js/2.d1cc3729.chunk.js": "/mockpus/static/js/2.d1cc3729.chunk.js",
     "static/js/2.d1cc3729.chunk.js.map": "/mockpus/static/js/2.d1cc3729.chunk.js.map",
     "index.html": "/mockpus/index.html",
-    "precache-manifest.d6fcd2fafc872078847c8c89a211ad5b.js": "/mockpus/precache-manifest.d6fcd2fafc872078847c8c89a211ad5b.js",
+    "precache-manifest.8ba290fd878f5355ae7b44d557d3e38c.js": "/mockpus/precache-manifest.8ba290fd878f5355ae7b44d557d3e38c.js",
     "service-worker.js": "/mockpus/service-worker.js",
-    "static/css/main.db964b18.chunk.css.map": "/mockpus/static/css/main.db964b18.chunk.css.map",
+    "static/css/main.178f3b49.chunk.css.map": "/mockpus/static/css/main.178f3b49.chunk.css.map",
     "static/js/2.d1cc3729.chunk.js.LICENSE.txt": "/mockpus/static/js/2.d1cc3729.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3664298a.js",
     "static/js/2.d1cc3729.chunk.js",
-    "static/css/main.db964b18.chunk.css",
-    "static/js/main.7778a816.chunk.js"
+    "static/css/main.178f3b49.chunk.css",
+    "static/js/main.89cb076d.chunk.js"
   ]
 }
